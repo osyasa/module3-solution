@@ -1,0 +1,51 @@
+body {
+    color: black;
+}
+.grid-element {
+    background-color: #b3b3b3;
+    margin-top: 4%;
+    padding: 1%;
+    border-radius: 1%;
+    box-shadow: 0px 0px 26px 6px rgba(0,0,0,0.76);
+}
+.header-div {
+    margin-top: 3%;
+}
+.navigation {
+    background-color: #b3b3b3;
+    border-bottom: 3px solid black;
+}
+.navbar-toggler {
+    border: 2px solid white;
+}
+.nav-link {
+    background-color: white;
+    border-bottom: 2px solid black;
+    color: black;
+}
+#chicken-link {
+    margin-top: 2%;
+}
+#sushi-link {
+    border-bottom: none;
+}
+#sushi-div {
+    margin-bottom: 3%;
+}
+.navbar-brand {
+    font-size: 1.5em;
+    margin-left: 2%;
+}
+@media (max-width: 767px) {
+    .container {
+        width: 75%;
+    }
+    .grid-element {
+        margin-top: 6%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    #sushi-div {
+        margin-bottom: 6%;
+    }
+}
